@@ -13,7 +13,7 @@ Multi-label toxic comment classifier with an optional text rewrite step. The app
 ## Project Structure
 - `toxic_detector_app.py` — Streamlit UI + training/inference + optional Groq rewrite
 - `toxic_detector.ipynb` — exploratory/analysis notebook (optional)
-- `train.csv` — Jigsaw Toxic Comment dataset (expected columns: `comment_text` + 6 label columns)
+- `train.csv` — Jigsaw Toxic Comment dataset (expected columns: `comment_text` + 6 label columns) - https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data
 - `requirements.txt` — Python dependencies
 - `.env` — environment variables (optional; for `GROQ_API_KEY`)
 
