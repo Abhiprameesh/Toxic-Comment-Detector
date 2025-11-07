@@ -67,7 +67,7 @@ Then open the URL shown in the terminal (usually http://localhost:8501).
 
 ## Troubleshooting
 - Missing `train.csv`:
-  - Place the file in the repo root; ensure required columns are present.
+  - Place the file in the repo root; ensure required columns are present. You can install that from https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data
 - NLTK lookup/download errors:
   - Ensure internet access for first run; Streamlit will download needed corpora.
 - Out‑of‑memory or slow training:
